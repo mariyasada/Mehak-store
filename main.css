@@ -1,0 +1,40 @@
+@import url(/home.css);
+
+/*  reset css */
+html{
+    font-size: 62.5%;
+    height: 100%;
+}
+
+body{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;  
+    height: 100%;  
+}
+
+a{
+    text-decoration: none;
+    color:inherit;
+}
+
+/* colors*/
+:root
+{
+--primary-color:#750634;
+--secondary-color:#F50C6D;
+--secondary-light-pink:#F75699;
+--secondary-color-dark:#752949;
+--primary-color-light:#C20A56;
+--light-rose:#f43f5e;
+--light-green:#7EF246;
+--dark-green:#40A60F;
+
+}
+
+/* font size */
+:root
+{
+    --nav-icon-sm:1.7rem;
+}
+
