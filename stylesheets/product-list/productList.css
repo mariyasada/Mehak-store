@@ -55,10 +55,11 @@ hr{
 {
     text-align: center;
 }
- .card-for-ecommerce
+ .card-with-shadow
 {
     border: none; 
 } 
+
 .link-btn{
     border: 2px solid var(--secondary-color) !important;
     background: transparent;
