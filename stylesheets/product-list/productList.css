@@ -1,0 +1,95 @@
+.sidebar-container
+{  
+    overflow-y: scroll;
+    margin-top: 9rem;
+    display: flex;  
+    height: 85vh;    
+}
+hr{
+    margin-top: 0.1rem;
+}
+.sidebar-items
+{
+    list-style: none;
+}
+.sidebar-content-item
+{
+    text-transform: uppercase;
+    display: flex;
+    width:auto;
+    gap:1.4rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--dark-stone);
+    margin-bottom: 0.1rem;
+}
+.sidebar-container a:hover{
+    color: var(--secondary-color);
+}
+.filter-icon
+{
+  font-size: large;
+  font-weight: bold;
+  margin-left: auto;
+  
+}
+.sidebar-list
+{
+    font-size: 1.6rem;
+    color: var(--light-stone);
+    padding:0.4rem;
+    margin-left: auto;
+}
+.grid-3-column-layout
+{
+    
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    min-height: 90vh;
+    min-width: 100%;
+   grid-auto-rows: 1fr;
+    gap:3rem;
+}
+  /* ************************* */
+.center
+{
+    text-align: center;
+}
+ .card-for-ecommerce
+{
+    border: none; 
+} 
+.link-btn{
+    border: 2px solid var(--secondary-color) !important;
+    background: transparent;
+    margin-top: 0.3rem;
+    min-width: 8rem;
+}
+
+.rating-badge
+{
+    left:17.3rem;
+    top:6.1rem;
+    
+}
+.rating-badge.estee-badge
+{
+    left:19.3rem;
+}
+.btn-wishlist
+{   margin-left:3rem;
+    font-size: 2.7rem;
+    align-self: center;
+    color:var(--secondary-color) 
+}
+.btns-in-flex
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.price
+{
+    margin-left: -2rem;
+    margin-right: 1rem;
+}

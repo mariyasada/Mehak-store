@@ -10,6 +10,7 @@
     align-items: center;
     max-width: 100%;
     flex: 1;
+    z-index: 150;
 }
 .nav-items
 {
@@ -117,7 +118,7 @@
     width: 27rem;
     background: transparent;
 }
-.card-title
+.card-title-pink
 {
     font-size: 1.7rem;
     font-weight: bold;
@@ -134,11 +135,12 @@ footer
     display: flex;
     align-items: center;
     justify-content: center;
-    position: fixed;
-    bottom: 0;
-    min-width: 100%;
-    height: auto;
+    gap: 2rem;
+    min-width: 100%; 
     grid-column: 1/-1;
+    bottom:0;
+    position: fixed;
+    /* z-index:200; */
 }
 .footer-heading
 {
