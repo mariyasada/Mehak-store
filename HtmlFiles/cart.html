@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart Page</title>
+    <link rel="stylesheet" href="https://iqra-ui.netlify.app/stylesheets/main.css">
+    <link rel="stylesheet" href="/main.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+<link rel="stylesheet" href="/path/to/font-awesome/css/font-awesome.min.css" type="text/css">
+</head>
+<body>
+    <div class="grid-container">
+     <!---------------------- nav bar --------------- -->
+        <nav class="navbar">       
+       <!---------------------nav items------------------------------------------------ -->
+                <div class="nav-content-container">
+                    <ul class="nav-items">
+
+                        <li class="nav-item nav-item-active">
+                            <a href="/index.html">Home</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="/HtmlFiles/productlist.html">Shop</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <div class="serchbox-container">
+                                <input type="text" placeholder="search" class="input-searchbox border-round">
+                             </div>
+                        </li>
+                    </ul>
+
+                  </div>
+<!-- ---------------------------------------------logo image------------------------------- -->
+                    <div class="logo-container">
+                            <div class="logo">
+                                <img class="logo-image" src="/Image/Mehak.png">
+                            </div>
+
+                            <div class="logo-text"><em>Mehak </em></div>
+                   </div>
+        <!------------------------------ nav bar social media icons------------------------------------------------------------------------------- -->
+          <div class="nav-social-media-icons-container">
+                    <ul class="nav-items">
+
+                        <li class="nav-item">
+                            <a href="">
+                                <span class="nav-icon"><i class="fas fa-user" title="Log In"></i></span>
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="">
+                                <span class="nav-icon"><i class="far fa-heart" title="WishList"></i></span>
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="/HtmlFiles/cart.html">
+                                <span class="nav-icon"><i class="fad fa-shopping-bag" title="Cart"></i></span>
+                            </a>
+                        </li>
+
+                    </ul>
+          </div>
+
+        </nav>
+
+        <!-- -----------------------navbar ends here-------------------------------------- -->
+        <section class="main-content-container">
+                <h2 class="heading">My Cart</h2>
+              <div class="cart-order-container">
+                        <div class="horizontal-card pd-1 border-round">
+                                <div class="card-image-holder">
+                                    <img src="/Image/MEN/armani-prive-cuir_men.jpg" class="card-image"/>
+                                </div>
+
+                                <div class="card-body">
+                                    <span class="card-title fw-300">Armani-prive-cuir- 100ml (MEN)</span>
+                                    <p class="card-detail card-qty-flex">Quantity :
+                                        <i class="fal fa-minus"></i>
+                                        <span class="qty">1</span> 
+                                        <i class="fal fa-plus"></i>
+                                    </p>
+                                    <span class="price-details">
+                                            <p class="price"><i class="fas fa-rupee-sign"></i>7600</p>
+                                            <span class="discount"><i class="fal fa-rupee-sign"></i>4000</span>
+                                            <p class="discount-tag">(56% Off)</p>
+                                     </span>
+
+                                    <div class="button-container">
+                                        <span><button class="btn fc-pink border-round">REMOVE</button></span>
+                                        <span><button class="link-btn border-round">ADD TO WISHLIST</button></span>
+                                    </div>
+                                </div>
+                    </div>
+
+                  <div class="final-price-container">                      
+                            <div class="text-only-card card-with-shadow">
+                                <h2>PAYMENT DETAILS</h2>
+                                                                                               
+                                <div class="card-body">
+                                    <hr>
+                                        <div class="item-price-detail">
+                                            <p class="card-detail">Price (2 items)</p>
+                                            <span class="discount"><i class="fal fa-rupee-sign"></i>15200</span>
+                                        </div>
+
+                                        <div class="item-price-detail">
+                                            <p class="card-detail">Discount</p>
+                                            <span class="discount">-<i class="fal fa-rupee-sign"></i>7200</span>
+                                        </div>
+
+                                        <div class="item-price-detail">
+                                            <p class="card-detail">Delivery Charges</p>
+                                            <span class="discount"><i class="fal fa-rupee-sign"></i>800</span>
+                                        </div>
+                                        <hr>
+                                        <div class="item-price-detail">
+                                            <p class="card-detail fw-bold">TOTAL AMOUNT</p>
+                                            <span class="discount fw-bold"><i class="fal fa-rupee-sign"></i>8800</span>
+                                        </div>
+                                        
+                                        <div class="saving-quote">
+                                            <p class="card-detail">You will save <i class="fal fa-rupee-sign"></i>7800 on this order.</p>
+                                            <span><button class="link-btn border-round">PROCEED</button></span>
+                                        </div>
+
+                                </div>
+                        </div>
+                  </div>  
+            </div>
+        </section>
+                     
+    </div>
+
+</body>
+</html>

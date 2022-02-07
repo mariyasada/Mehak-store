@@ -1,5 +1,6 @@
 @import url(/home.css);
 @import url(/stylesheets/product-list/productList.css);
+@import url(/stylesheets/cart/cart.css);
 
 /*  reset css */
 html{
@@ -39,5 +40,8 @@ a{
 :root
 {
     --nav-icon-sm:1.7rem;
+}
+.link-btn:hover{
+    color: black;
 }
 
