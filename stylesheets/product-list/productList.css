@@ -91,12 +91,6 @@
     margin-left: -2rem;
     margin-right: 1rem;
 }
-/* .rating-with-icon
-{
-   max-width:3.5rem;
-   flex-shrink: 2;
-} */
-
 /*------- media query------- */
 @media only screen and (min-width:250px)  and (max-width:970px){
 

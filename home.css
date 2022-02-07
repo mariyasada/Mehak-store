@@ -102,7 +102,7 @@
 {    
     max-width: 90vw;
     margin: 1rem auto;
-    min-height:70vh ;
+    min-height:60vh;
     
 }
 .discount-images-container
@@ -151,6 +151,14 @@ footer
 {
     font-size: medium;
     color: var(--secondary-color);
+}
+.quote
+{
+    line-height: 3rem;
+    word-wrap: break-word;
+    max-width:50rem;
+    color:var(--primary-color-light);
+    text-shadow: 1px 1px var(--light-stone);
 }
 
 
