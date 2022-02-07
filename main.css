@@ -1,6 +1,7 @@
 @import url(/home.css);
 @import url(/stylesheets/product-list/productList.css);
 @import url(/stylesheets/cart/cart.css);
+@import url(/stylesheets/wishlist/wishlist.css);
 
 /*  reset css */
 html{
@@ -40,8 +41,14 @@ a{
 :root
 {
     --nav-icon-sm:1.7rem;
+    --margin-padding-sm:0.3rem;
+    
 }
 .link-btn:hover{
     color: black;
+}
+.btn-wishlist
+{
+    cursor: pointer;
 }
 

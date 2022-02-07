@@ -1,0 +1,8 @@
+.btn
+{
+    margin-top: var(--margin-padding-sm);
+}
+.btn-wishlist
+{
+    color: var(--light-rose);
+}
