@@ -13,7 +13,7 @@
 <body>
     <div class="grid-container">
      <!---------------------- nav bar --------------- -->
-        <div class="navbar">       
+        <nav class="navbar">       
        <!---------------------nav items------------------------------------------------ -->
                 <div class="nav-content-container">
                     <ul class="nav-items">
@@ -67,29 +67,27 @@
                     </ul>
           </div>
 
-    </div>
+        </nav>
 
         <!-- -----------------------navbar ends here & sidebar starts from here-------------------------------------- -->
-                <div class="sidebar-container sidebar-content">
+                <aside class="sidebar-container sidebar-content">
                     <ul class="sidebar-items">
                         <!-- ----------sort--------------------------- -->
-                        <h4 class="sidebar-content-item">Sort<span class="filter-icon"><i class="fas fa-redo"></i></span> </h4> 
+                        <span class="filter-icon"><i class="fas fa-redo"></i></span> 
+                        <h4 class="sidebar-content-item">Sort</h4> 
                         <li class="sidebar-list"><input type="radio" value="price low to high" name="sort-btn"/>Price Low to High</li>
                         <li class="sidebar-list"><input type="radio" value="price low to high" name="sort-btn"/>Price High to Low</li>
-                        <hr>
-
+                       
                         <!-- -------------------CATEGORY-------------- -->
                         <h4 class="sidebar-content-item">CATEGORY</h4>
                         <li class="sidebar-list"><input type="checkbox" value="Men" name="category-btn"/>Men</li>
                         <li class="sidebar-list"><input type="checkbox" value="Women" name="category-btn"/>Women</li>
-                        <hr>
-
+                       
                         <!-- -------------------Availability-------------- -->
                         <h4 class="sidebar-content-item">Availability</h4>
                         <li class="sidebar-list"><input type="checkbox" value="In-stock" name="available-btn"/>In-Stock</li>
                         <li class="sidebar-list"><input type="checkbox" value="out-ot-stock" name="available-btn"/>Out-Of-Stock</li>
-                        <hr>
-
+                
                         <!-- -------------------Brand-------------- -->
                         <h4 class="sidebar-content-item">Brand</h4>
                         <li class="sidebar-list"><input type="checkbox" value="Armani" name="available-btn"/>Armani</li>
@@ -104,9 +102,9 @@
                         <li class="sidebar-list"><input type="checkbox" value="Men" name="quantity-btn"/>150 ml</li>
                         <li class="sidebar-list"><input type="checkbox" value="Women" name="quantity-btn"/>100 ml</li>
                     </ul>
-                </div>
+                </aside>
      <!-------------------------------------- product list container------ -->
-     <section class="main-content-container">
+     <main class="main-content-container">
         <div class="grid-3-column-layout">
               
                 <div class="card-for-ecommerce pd-1 card-with-shadow">
@@ -503,7 +501,7 @@
                         </div>
                 </div>
         </div>
-    </section>                       
+    </main>                       
 </div>
 
 </body>
