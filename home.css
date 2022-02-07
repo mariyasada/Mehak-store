@@ -107,6 +107,7 @@
 }
 .discount-images-container
 {
+    min-width:50vw;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-evenly;
@@ -163,23 +164,17 @@ footer
 
 
 /*------- media query------- */
-/* @media only screen and (max-width:300px) {
+/* @media only screen and (min-width:300px) {
 
     body {
         height: 100%;
         width: 100%;
       }
-    .navbar
-    {
-        min-width:100%;
-        grid-column: 1/-1; 
-    }
-    .input-searchbox
-    {
-        max-width: 20%;
-    }
-    .nav-social-media-icon-container{
-        right:3rem;
-    }
+      .discount-images-container .card-for-ecommerce
+      {
+           width:20rem;
+           height: 20rem;
+           display: flex;
+      }
     
 } */

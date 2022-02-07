@@ -55,18 +55,27 @@
  .card-with-shadow
 {
     border: none; 
+}
+.fw-300
+{
+    font-weight: 300;
 } 
 
 .link-btn{
-    border: 2px solid var(--secondary-color) !important;
-    background: transparent;
+    border: 2px solid var(--light-rose) !important;
+    background: var(--light-rose);
+    color: var(--white-color);
     margin-top: 0.3rem;
     min-width: 8rem;
+}
+.sold-out-badge
+{
+    background-color: var(--secondary-color);
 }
 
 .rating-badge
 {
-    left:17.3rem;
+    left:17.5rem;
     top:6.1rem;
     
 }
