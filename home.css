@@ -10,6 +10,7 @@
     align-items: center;
     max-width: 100%;
     flex: 1;
+    z-index: 150;
 }
 .nav-items
 {
@@ -44,13 +45,19 @@
     color: var(--secondary-color);
 }
 
-.main-image-container
+.main-images-container
 {
     grid-column: 1/-1;
     min-height:90vh;
     min-width:100%;
-    position: relative;   
+    /* position: relative;    */
     flex-grow: 2;
+}
+.image-with-badges
+{
+    height: 100vh;
+    min-width: 100%;
+    position: relative;   
 }
 .home-page-image
 {
@@ -92,11 +99,11 @@
 }
 
 .feature-brand-container
-{   
-    
+{    
     max-width: 90vw;
     margin: 1rem auto;
-    min-height:70vh ;
+    min-height:60vh;
+    
 }
 .discount-images-container
 {
@@ -104,7 +111,6 @@
     flex-flow: row wrap;
     justify-content: space-evenly;
     gap:2rem;
-    min-height: auto;
 }
 .card-for-ecommerce
 {
@@ -117,7 +123,7 @@
     width: 27rem;
     background: transparent;
 }
-.card-title
+.card-title-pink
 {
     font-size: 1.7rem;
     font-weight: bold;
@@ -134,16 +140,25 @@ footer
     display: flex;
     align-items: center;
     justify-content: center;
-    position: fixed;
-    bottom: 0;
-    min-width: 100%;
-    height: auto;
+    gap: 2rem;
+    min-width: 100%; 
     grid-column: 1/-1;
+    bottom:0;
+    position: fixed;
+    z-index:200;
 }
 .footer-heading
 {
     font-size: medium;
     color: var(--secondary-color);
+}
+.quote
+{
+    line-height: 3rem;
+    word-wrap: break-word;
+    max-width:50rem;
+    color:var(--primary-color-light);
+    text-shadow: 1px 1px var(--light-stone);
 }
 
 
