@@ -2,6 +2,7 @@
 @import url(/stylesheets/product-list/productList.css);
 @import url(/stylesheets/cart/cart.css);
 @import url(/stylesheets/wishlist/wishlist.css);
+@import url(/stylesheets/logIN/login.css);
 
 /*  reset css */
 html{
@@ -45,10 +46,25 @@ a{
     
 }
 .link-btn:hover{
-    color: black;
+    color: var(--light-rose);
+    font-weight: 700;
+    border: 4px solid var(--light-rose);
+    background: transparent;
 }
 .btn-wishlist
 {
     cursor: pointer;
+}
+.card-image
+{
+    object-fit: fill;
+}
+/* hover effects */
+.btn:hover
+{
+    background-color: var(--light-rose);
+    border:1px solid var(--light-rose);
+    color: var(--white-color);
+    font-weight: bold;
 }
 

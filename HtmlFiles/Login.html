@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cart Page</title>
+    <link
+      rel="stylesheet"
+      href="https://iqra-ui.netlify.app/stylesheets/main.css"
+    />
+    <link rel="stylesheet" href="/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="/path/to/font-awesome/css/font-awesome.min.css"
+      type="text/css"
+    />
+  </head>
+  <body>
+    <div class="grid-container">
+      <!---------------------- nav bar --------------- -->
+      <nav class="navbar">
+        <!---------------------nav items------------------------------------------------ -->
+        <div class="nav-content-container">
+          <ul class="nav-items">
+            <li class="nav-item nav-item-active">
+              <a href="/index.html">Home</a>
+            </li>
+
+            <li class="nav-item">
+              <a href="/HtmlFiles/productlist.html">Shop</a>
+            </li>
+
+            <li class="nav-item">
+              <div class="serchbox-container">
+                <input
+                  type="text"
+                  placeholder="search"
+                  class="input-searchbox border-round"
+                />
+              </div>
+            </li>
+          </ul>
+        </div>
+        <!-- ---------------------------------------------logo image------------------------------- -->
+        <div class="logo-container">
+          <div class="logo">
+            <img class="logo-image" src="/Image/Mehak.png" />
+          </div>
+
+          <div class="logo-text"><em>Mehak </em></div>
+        </div>
+        <!------------------------------ nav bar social media icons------------------------------------------------------------------------------- -->
+        <div class="nav-social-media-icons-container">
+          <ul class="nav-items">
+            <li class="nav-item">
+              <a href="/HtmlFiles/Login.html">
+                <span class="nav-icon"
+                  ><i class="fas fa-user" title="Log In"></i
+                ></span>
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a href="/HtmlFiles/wishlist.html">
+                <span class="nav-icon"
+                  ><i class="far fa-heart" title="WishList"></i
+                ></span>
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a href="/HtmlFiles/cart.html">
+                <span class="nav-icon"
+                  ><i class="fad fa-shopping-bag" title="Cart"></i
+                ></span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <!-- -----------------------navbar ends here-------------------------------------- -->
+      <section class="main-content-container">
+        <div class="login-page-container border-round">
+          <h2 class="heading heading-shadow">LOG IN</h2>
+          <input
+            class="input-textbox"
+            placeholder="Enter your email here"
+            type="text"
+          />
+          <span class="input-with-icon-container">
+            <input
+              class="input-textbox"
+              placeholder="Enter your password here"
+              type="password"
+            />
+            <button class="eye-icon" type="button">
+              <i class="fas fa-eye"></i>
+            </button>
+          </span>
+          <span
+            ><button class="link-btn border-round fluid-btn">
+              LOGIN
+            </button></span
+          >
+          <span
+            ><button class="btn link-btn btn-color-rose border-round fluid-btn">
+              Log In As Admin
+            </button></span
+          >
+          <span class="New-user-links">
+            <p>New User ?</p>
+            <a href="" class="signup-link">Sign up here</a>
+          </span>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
