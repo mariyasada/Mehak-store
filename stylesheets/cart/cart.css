@@ -46,9 +46,9 @@
     width:4rem;
     border:1px solid var(--light-stone);
     text-align: center;
-    padding: 0.3rem;
+    padding: var(--margin-padding-sm);
     border-radius: 0.3rem;
-    margin:0.3rem;
+    margin:var(--margin-padding-sm);
 }
 .item-price-detail .discount
 {

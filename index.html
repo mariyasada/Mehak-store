@@ -1,197 +1,240 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home Page</title>
-    <link rel="stylesheet" href="https://iqra-ui.netlify.app/stylesheets/main.css">
-    <link rel="stylesheet" href="main.css">
-    <link rel="stylesheet" href="home.css">
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
-<link rel="stylesheet" href="/path/to/font-awesome/css/font-awesome.min.css" type="text/css">
-</head>
-<body>
+    <link
+      rel="stylesheet"
+      href="https://iqra-ui.netlify.app/stylesheets/main.css"
+    />
+    <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="home.css" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="/path/to/font-awesome/css/font-awesome.min.css"
+      type="text/css"
+    />
+  </head>
+  <body>
     <div class="grid-container">
-     <!---------------------- nav bar --------------- -->
-        <nav class="navbar">       
-       <!---------------------nav items------------------------------------------------ -->
-                <div class="nav-content-container">
-                    <ul class="nav-items">
+      <!---------------------- nav bar --------------- -->
+      <nav class="navbar">
+        <!---------------------nav items------------------------------------------------ -->
+        <div class="nav-content-container">
+          <ul class="nav-items">
+            <li class="nav-item nav-item-active">
+              <a href="/index.html">Home</a>
+            </li>
 
-                        <li class="nav-item nav-item-active">
-                            <a href="/index.html">Home</a>
-                        </li>
+            <li class="nav-item">
+              <a href="/HtmlFiles/productlist.html">Shop</a>
+            </li>
 
-                        <li class="nav-item">
-                            <a href="/HtmlFiles/productlist.html">Shop</a>
-                        </li>
-
-                        <li class="nav-item">
-                            <div class="serchbox-container">
-                                <input type="text" placeholder="search" class="input-searchbox border-round">
-                             </div>
-                        </li>
-                    </ul>
-
-                  </div>
-<!-- ---------------------------------------------logo image------------------------------- -->
-                    <div class="logo-container">
-                            <div class="logo">
-                                <img class="logo-image" src="/Image/Mehak.png">
-                            </div>
-
-                            <div class="logo-text"><em>Mehak </em></div>
-                   </div>
-        <!------------------------------ nav bar social media icons------------------------------------------------------------------------------- -->
-          <div class="nav-social-media-icons-container">
-                    <ul class="nav-items">
-
-                        <li class="nav-item">
-                            <a href="">
-                                <span class="nav-icon"><i class="fas fa-user" title="Log In"></i></span>
-                            </a>
-                        </li>
-
-                        <li class="nav-item">
-                            <a href="">
-                                <span class="nav-icon"><i class="far fa-heart" title="WishList"></i></span>
-                            </a>
-                        </li>
-
-                        <li class="nav-item">
-                            <a href="/HtmlFiles/cart.html">
-                                <span class="nav-icon"><i class="fad fa-shopping-bag" title="Cart"></i></span>
-                            </a>
-                        </li>
-
-                    </ul>
+            <li class="nav-item">
+              <div class="serchbox-container">
+                <input
+                  type="text"
+                  placeholder="search"
+                  class="input-searchbox border-round"
+                />
+              </div>
+            </li>
+          </ul>
+        </div>
+        <!-- ---------------------------------------------logo image------------------------------- -->
+        <div class="logo-container">
+          <div class="logo">
+            <img class="logo-image" src="/Image/Mehak.png" />
           </div>
 
-        </nav>
+          <div class="logo-text"><em>Mehak </em></div>
+        </div>
+        <!------------------------------ nav bar social media icons------------------------------------------------------------------------------- -->
+        <div class="nav-social-media-icons-container">
+          <ul class="nav-items">
+            <li class="nav-item">
+              <a href="">
+                <span class="nav-icon"
+                  ><i class="fas fa-user" title="Log In"></i
+                ></span>
+              </a>
+            </li>
 
-        <!-- -----------------------navbar ends here-------------------------------------- -->
-        <section class="main-images-container">
-                <div class="image-with-badges">
-                        <img class="home-page-image" src="/Image/cover-image.jpg"/>
-                            <div class="home-product-badge border-round">
-                                <!-- <p class="sale-badge">NEW ARRIVAL PRODUCTS</p> -->
-                                <p class="quote"><em>perfume is the art that makes memory speak, choose your art with Mehak</em></p>
-                                <a href="/HtmlFiles/productlist.html">
-                                    <span class="product-with-arrow">
-                                        Buy Now </span>
-                                </a> 
-                            </div>
-                </div>
-       
-                 <h2 class="heading">EPIC DEALS ON BIG BRANDS</h2>
-                 <div class="feature-brand-container">
-                         <div class="discount-images-container">
-                        <!-- ----first card------------------- -->
-                                <div class="card-for-ecommerce pd-1">
-                                    <div class="card-image-holder">
-                                        <img src="/Image/laurissi.jpg" class="card-image"/>
-                                    </div>
+            <li class="nav-item">
+              <a href="/HtmlFiles/wishlist.html">
+                <span class="nav-icon"
+                  ><i class="far fa-heart" title="WishList"></i
+                ></span>
+              </a>
+            </li>
 
-                                        <div class="card-body">
-                                               <a href="/HtmlFiles/productlist.html"><span class="card-title card-title-pink">Free minis on All Orders</span></a>
-                                    </div>
-                                </div>
+            <li class="nav-item">
+              <a href="/HtmlFiles/cart.html">
+                <span class="nav-icon"
+                  ><i class="fad fa-shopping-bag" title="Cart"></i
+                ></span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
 
-       <!-- --------------------------------------------SECOND CARD------------------------- -->
+      <!-- -----------------------navbar ends here-------------------------------------- -->
+      <section class="main-images-container">
+        <div class="image-with-badges">
+          <img class="home-page-image" src="/Image/cover-image.jpg" />
+          <div class="home-product-badge border-round">
+            <!-- <p class="sale-badge">NEW ARRIVAL PRODUCTS</p> -->
+            <p class="quote">
+              <em
+                >perfume is the art that makes memory speak, choose your art
+                with Mehak</em
+              >
+            </p>
+            <a href="/HtmlFiles/productlist.html">
+              <span class="product-with-arrow"> Buy Now </span>
+            </a>
+          </div>
+        </div>
 
-                                    <div class="card-for-ecommerce pd-1">
-                                        <div class="card-image-holder">
-                                            <img src="/Image/varcase.jpg" class="card-image"/>
-                                        </div>
+        <h2 class="heading">EPIC DEALS ON BIG BRANDS</h2>
+        <div class="feature-brand-container">
+          <div class="discount-images-container">
+            <!-- ----first card------------------- -->
+            <div class="card-for-ecommerce pd-1">
+              <div class="card-image-holder">
+                <img src="/Image/laurissi.jpg" class="card-image" />
+              </div>
 
-                                            <div class="card-body">
-                                                <a href="/HtmlFiles/productlist.html"><span class="card-title card-title-pink">Upto 10% Off</span></a>
-                                        </div>
-                                    </div>
+              <div class="card-body">
+                <a href="/HtmlFiles/productlist.html"
+                  ><span class="card-title card-title-pink"
+                    >Free minis on All Orders</span
+                  ></a
+                >
+              </div>
+            </div>
 
-       <!-- -----------------------------------------------Third card ---------------------->
+            <!-- --------------------------------------------SECOND CARD------------------------- -->
 
-                                    <div class="card-for-ecommerce pd-1">
-                                        <div class="card-image-holder">
-                                            <img src="/Image/nior.jpg" class="card-image"/>
-                                        </div>
+            <div class="card-for-ecommerce pd-1">
+              <div class="card-image-holder">
+                <img src="/Image/varcase.jpg" class="card-image" />
+              </div>
 
-                                            <div class="card-body">
-                                                <a href="/HtmlFiles/productlist.html"><span class="card-title card-title-pink">Upto 25% Off</span></a>
-                                         </div>
-                                    </div>
-            
-                              </div>
-                    </div>
-<!-- -------------------------------------------------New arrival products-------------------------- -->
-                    <h2 class="heading">TOP PRODUCTS FOR YOU</h2>
-                    <div class="feature-brand-container">
-                            <div class="discount-images-container">
-                        <!-- ----first card------------------- -->
-                                <div class="card-for-ecommerce pd-1">
-                                    <div class="card-image-holder">
-                                        <img src="/Image/SHALIMAR.jpg" class="card-image"/>
-                                    </div>
+              <div class="card-body">
+                <a href="/HtmlFiles/productlist.html"
+                  ><span class="card-title card-title-pink"
+                    >Upto 10% Off</span
+                  ></a
+                >
+              </div>
+            </div>
 
-                                        <div class="card-body">
-                                                <a href="/HtmlFiles/productlist.html"><span class="card-title card-title-pink">Shalimar Eau De Toilette Spray </span></a>
-                                    </div>
-                                </div>
+            <!-- -----------------------------------------------Third card ---------------------->
 
-                    <!-- --------------------------------------------SECOND CARD------------------------- -->
+            <div class="card-for-ecommerce pd-1">
+              <div class="card-image-holder">
+                <img src="/Image/nior.jpg" class="card-image" />
+              </div>
 
-                                    <div class="card-for-ecommerce pd-1">
-                                        <div class="card-image-holder">
-                                            <img src="/Image/WOMEN/zara-oriental-women.jpg" class="card-image"/>
-                                        </div>
+              <div class="card-body">
+                <a href="/HtmlFiles/productlist.html"
+                  ><span class="card-title card-title-pink"
+                    >Upto 25% Off</span
+                  ></a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- -------------------------------------------------New arrival products-------------------------- -->
+        <h2 class="heading">TOP PRODUCTS FOR YOU</h2>
+        <div class="feature-brand-container">
+          <div class="discount-images-container">
+            <!-- ----first card------------------- -->
+            <div class="card-for-ecommerce pd-1">
+              <div class="card-image-holder">
+                <img src="/Image/SHALIMAR.jpg" class="card-image" />
+              </div>
 
-                                            <div class="card-body">
-                                                <a href="/HtmlFiles/productlist.html"><span class="card-title card-title-pink">Zara-oriental</span></a>
-                                        </div>
-                                    </div>
+              <div class="card-body">
+                <a href="/HtmlFiles/productlist.html"
+                  ><span class="card-title card-title-pink"
+                    >Shalimar Eau De Toilette Spray
+                  </span></a
+                >
+              </div>
+            </div>
 
-                    <!-- -----------------------------------------------Third card ---------------------->
+            <!-- --------------------------------------------SECOND CARD------------------------- -->
 
-                                    <div class="card-for-ecommerce pd-1 ">
-                                        <div class="card-image-holder">
-                                            <img src="/Image/CHANEL.jpg" class="card-image"/>
-                                        </div>
+            <div class="card-for-ecommerce pd-1">
+              <div class="card-image-holder">
+                <img
+                  src="/Image/WOMEN/zara-oriental-women.jpg"
+                  class="card-image"
+                />
+              </div>
 
-                                            <div class="card-body">
-                                                <a href="/HtmlFiles/productlist.html"><span class="card-title card-title-pink">Chance Eau Tendre</span></a>
-                                            </div>
-                                    </div>
+              <div class="card-body">
+                <a href="/HtmlFiles/productlist.html"
+                  ><span class="card-title card-title-pink"
+                    >Zara-oriental</span
+                  ></a
+                >
+              </div>
+            </div>
 
-                                </div>
-                    </div>
-         </section>
-    <!-- --------------------------footer-------------------------------- -->
-         <footer class="footer">
-                <div class="footer-heading">Made by Mariya Sada | © | 2022 </div>
-                        <ul class="nav-items">
+            <!-- -----------------------------------------------Third card ---------------------->
 
-                            <li class="nav-item">
-                                <a href="https://github.com/mariyasada">
-                                    <span class="nav-icon"><i class="fab fa-github"></i></span>
-                                </a>
-                            </li>
-        
-                            <li class="nav-item">
-                            <a href="https://twitter.com/sada_mariya">
-                                <span class="nav-icon"><i class="fab fa-twitter"></i></span>
-                            </a>
-                        </li>
-        
-                            <li class="nav-item">
-                                <a href="https://www.linkedin.com/in/mariya-sada-1b6443139">
-                                    <span class="nav-icon"><i class="fab fa-linkedin"></i></span>
-                                </a>
-                            </li>
-                        </ul>
-         </footer>
-                     
+            <div class="card-for-ecommerce pd-1">
+              <div class="card-image-holder">
+                <img src="/Image/CHANEL.jpg" class="card-image" />
+              </div>
+
+              <div class="card-body">
+                <a href="/HtmlFiles/productlist.html"
+                  ><span class="card-title card-title-pink"
+                    >Chance Eau Tendre</span
+                  ></a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- --------------------------footer-------------------------------- -->
+      <footer class="footer">
+        <div class="footer-heading">Made by Mariya Sada | © | 2022</div>
+        <ul class="nav-items">
+          <li class="nav-item">
+            <a href="https://github.com/mariyasada">
+              <span class="nav-icon"><i class="fab fa-github"></i></span>
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a href="https://twitter.com/sada_mariya">
+              <span class="nav-icon"><i class="fab fa-twitter"></i></span>
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a href="https://www.linkedin.com/in/mariya-sada-1b6443139">
+              <span class="nav-icon"><i class="fab fa-linkedin"></i></span>
+            </a>
+          </li>
+        </ul>
+      </footer>
     </div>
-
-</body>
+  </body>
 </html>
