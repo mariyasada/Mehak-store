@@ -55,10 +55,6 @@ a{
 {
     cursor: pointer;
 }
-.card-image
-{
-    object-fit: fill;
-}
 /* hover effects */
 .btn:hover
 {

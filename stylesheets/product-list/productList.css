@@ -66,6 +66,7 @@
     background: var(--light-rose);
     color: var(--white-color);
     margin-top: 0.3rem;
+    align-self: center;
     min-width: 8rem;
 }
 .sold-out-badge
@@ -84,9 +85,10 @@
     left:19.3rem;
 }
 .btn-wishlist
-{   margin-left:3rem;
-    font-size: 2.7rem;
+{  
     align-self: center;
+    margin-left:3rem;
+    font-size: 2.7rem;
     color:var(--secondary-color) 
 }
 .btns-in-flex
