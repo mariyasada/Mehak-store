@@ -1,0 +1,85 @@
+.login-page-container
+{
+    min-height:70vh ;
+    max-width:40vw;
+    display:flex;
+    flex-direction: column;
+    box-shadow: 2px 2px 4px var(--dark-stone);
+    align-items: center;
+    margin: auto;
+}
+.heading,
+.input-textbox,
+.mt-3
+
+{
+  margin-top:3rem;
+}
+.heading-shadow
+{
+    text-shadow: 1px 1px 2px var(--light-stone);
+    font-size: 2.7rem;
+}
+.input-textbox
+{
+    min-width:30vw;
+    border: 1px solid var(--light-stone);
+}
+.input-with-icon-container
+{
+    width:100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.eye-icon
+{
+    position: absolute;
+    width:2rem;
+    height: 2rem;
+    border-radius: 0.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    right:6.5rem;
+    top:3.5rem;
+    border: none;
+    background: transparent;
+    font-size: 2rem;
+}
+.input-textbox:focus{
+    border: 1px solid var(--red-color);
+}
+.link-btn.fluid-btn
+{
+   min-width: 31vw;
+   font-weight: bold;
+   background: transparent;
+   color:var(--light-rose);
+}
+.btn.btn-color-rose 
+{
+    background-color: var(--light-rose);
+    color: var(--white-color);
+}
+
+button{
+    cursor: pointer;
+}
+.New-user-links
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:1rem;
+    font-size: 2rem;
+    font-weight: 300;
+    color: var(--dark-stone);
+}
+ .signup-link
+{
+    text-decoration: underline;
+    color: var(--medium-teal);
+}
+
