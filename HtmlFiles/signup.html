@@ -88,52 +88,91 @@
 
       <!-- -----------------------navbar ends here-------------------------------------- -->
       <section class="main-content-container">
-        <div class="login-page-container border-round">
-          <h2 class="heading heading-shadow">LOG IN</h2>
-          <div class="input-buttons-container">
+        <div class="sign-up-page-container border-round">
+          <h2 class="heading text-size-xl">Sign Up</h2>
+          <div class="name-container">
+            <label for="FirstName" class="required-field">First Name</label>
             <input
-              class="input-textbox"
-              placeholder="Enter your email here"
+              class="input-textbox input-sm"
+              placeholder="First Name"
               type="text"
+            />
+            <p class="alert alert-danger alert-with-flex">
+              <i class="fas fa-exclamation-triangle"></i> please enter valid
+              name
+            </p>
+            <label for="LastName" class="required-field">Last Name</label>
+            <input
+              class="input-textbox input-sm"
+              placeholder="Last Name"
+              type="text"
+            />
+            <p class="alert alert-danger alert-with-flex">
+              <i class="fas fa-exclamation-triangle"></i> please enter valid
+              Surname
+            </p>
+            <label for="LastName" class="required-field">Email</label>
+            <input
+              class="input-textbox input-sm"
+              placeholder="Email"
+              type="email"
             />
             <p class="alert alert-danger alert-with-flex">
               <i class="fas fa-exclamation-triangle"></i> please enter valid
               email
             </p>
+            <label for="LastName" class="required-field">User Name</label>
+            <input
+              class="input-textbox input-sm"
+              placeholder="Enter Username"
+              type="text"
+            />
+            <p class="alert alert-danger alert-with-flex">
+              <i class="fas fa-exclamation-triangle"></i> please enter valid
+              Username
+            </p>
+            <label for="LastName" class="required-field">Password</label>
             <span class="input-with-icon-container">
               <input
                 class="input-textbox"
                 placeholder="Enter your password here"
                 type="password"
               />
-              <button class="eye-icon" type="button">
+              <button class="eye-icon eye-icon-signup" type="button">
+                <i class="fas fa-eye-slash"></i>
+              </button>
+            </span>
+            <p class="alert alert-danger">
+              <i class="fas fa-exclamation-triangle"></i>
+              minimum 8 characters(one capital, small letter and number)
+            </p>
+
+            <label for="LastName" class="required-field"
+              >Confirm Password</label
+            >
+            <span class="input-with-icon-container">
+              <input
+                class="input-textbox"
+                placeholder="Re-enter your password here"
+                type="password"
+              />
+              <button class="eye-icon eye-icon-signup" type="button">
                 <i class="fas fa-eye-slash"></i>
               </button>
             </span>
             <p class="alert alert-danger alert-with-flex">
-              <i class="fas fa-exclamation-triangle"></i> please enter valid
-              password
+              <i class="fas fa-exclamation-triangle"></i> Password does not
+              match
             </p>
-            <span
-              ><button class="link-btn border-round fluid-btn mt-3">
-                LOGIN
+            <span class="center"
+              ><button class="link-btn border-round mt-3">
+                REGISTER
               </button></span
             >
-            <span
-              ><button
-                class="btn link-btn btn-color-rose border-round fluid-btn mt-3"
-              >
-                Log In As Admin
-              </button></span
-            >
-            <p class="alert alert-danger alert-with-flex">
-              <i class="fas fa-exclamation-triangle"></i> Email or Password is
-              incorrect
-            </p>
             <span class="New-user-links">
-              <p>New User ?</p>
-              <a href="/HtmlFiles/signup.html" class="signup-link"
-                >Sign up here</a
+              <p>Have account?</p>
+              <a href="/HtmlFiles/Login.html" class="signup-link"
+                >Log-In here</a
               >
             </span>
           </div>
