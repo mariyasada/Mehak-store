@@ -1,0 +1,51 @@
+.product-image-details-container
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-height: 90vh;
+    max-width:100vw;
+    min-width: 60vw;   
+    margin-left:10rem;
+}
+.product-image-details-container.image-of-product
+{
+    height:30rem;
+    width:20rem;
+    
+}
+.product-details
+{
+    margin:0 auto;
+    max-height:auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+}
+.price-details .price
+{
+    margin-left: 0.6rem;
+    color: var(--light-stone);
+}
+.tags-container
+{
+    display: flex;
+    margin-bottom: 5px;
+    gap:6px;
+}
+.fa-tag
+{
+    color:var(--dark-blue);
+}
+.perfume-manufacture-detail
+{
+    display: flex;
+    flex-direction: column;
+    gap:4px;
+}
+.pc-detail{
+    margin-left: 1rem;
+    color: var(--dark-sky);
+}
+
+
+

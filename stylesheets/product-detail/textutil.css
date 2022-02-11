@@ -1,0 +1,16 @@
+.text-size-md
+{
+    font-size: 2rem;
+}
+.text-red
+{
+    color:red;
+}
+.text-black
+{
+    color: black;
+}
+.text-blue
+{
+    color: var(--dark-blue);
+}
