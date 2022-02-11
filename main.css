@@ -4,6 +4,8 @@
 @import url(/stylesheets/wishlist/wishlist.css);
 @import url(/stylesheets/logIN/login.css);
 @import url(/stylesheets/signup/signup.css);
+@import url(/stylesheets/product-detail/pDetail.css);
+@import url(/stylesheets/product-detail/textutil.css);
 
 /*  reset css */
 html{
@@ -36,6 +38,8 @@ a{
 --light-rose:#f43f5e;
 --light-green:#7EF246;
 --dark-green:#40A60F;
+--red-color:red;
+--black-color:black;
 
 }
 
