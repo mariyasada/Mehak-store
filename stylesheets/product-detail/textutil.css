@@ -4,11 +4,11 @@
 }
 .text-red
 {
-    color:red;
+    color:var(--red-color);
 }
 .text-black
 {
-    color: black;
+    color: var(--black-color);
 }
 .text-blue
 {
