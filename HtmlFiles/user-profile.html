@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Cart Page</title>
+    <title>User profile Page</title>
     <link
       rel="stylesheet"
       href="https://iqra-ui.netlify.app/stylesheets/main.css"
@@ -67,11 +67,11 @@
               </a>
             </li>
 
-            <li class="nav-item">
+            <li class="nav-item heart-with-badge">
               <a href="/HtmlFiles/wishlist.html">
                 <span class="nav-icon"
-                  ><i class="far fa-heart" title="WishList"></i
-                ></span>
+                  ><i class="far fa-heart" title="WishList"></i>
+                </span>
               </a>
             </li>
 
@@ -92,94 +92,76 @@
 
       <!-- -----------------------navbar ends here-------------------------------------- -->
       <section class="main-content-container">
-        <h2 class="heading">My Cart</h2>
-        <div class="cart-order-container">
-          <div class="horizontal-card pd-1 border-round">
-            <div class="card-image-holder">
-              <img
-                src="/Image/MEN/armani-prive-cuir_men.jpg"
-                class="card-image"
-              />
+        <div class="profile-container">
+          <h2 class="heading">Account</h2>
+          <div class="user-profile-details flex-center">
+            <div class="btn-container flex-center">
+              <button class="btn-tabs text-size-md" id="profile">
+                Profile
+              </button>
+              <button class="btn-tabs text-size-md" id="address">
+                Address
+              </button>
+              <button class="btn-tabs text-size-md" id="settings">
+                Settings
+              </button>
             </div>
-
-            <div class="card-body">
-              <span class="card-title fw-300"
-                >Armani-prive-cuir- 100ml (MEN)</span
-              >
-              <p class="card-detail card-qty-flex">
-                Quantity :
-                <i class="fal fa-minus"></i>
-                <span class="qty">1</span>
-                <i class="fal fa-plus"></i>
-              </p>
-              <span class="price-details">
-                <p class="price"><i class="fas fa-rupee-sign"></i>7600</p>
-                <span class="discount"
-                  ><i class="fal fa-rupee-sign"></i>4000</span
-                >
-                <p class="discount-tag">(56% Off)</p>
-              </span>
-
-              <div class="button-container">
-                <span
-                  ><button class="btn fc-pink border-round">
-                    REMOVE
-                  </button></span
-                >
-                <span
-                  ><button class="link-btn border-round">
-                    ADD TO WISHLIST
-                  </button></span
-                >
+            <div class="details-container">
+              <div class="user-detail details" id="profile">
+                <h2 class="text-size-md">Profile Details</h2>
+                <div class="user-details">
+                  <div class="fullname-detail">
+                    <span class="text-size-md">Full Name : </span>
+                    <span class="text-size-md">Admin </span>
+                  </div>
+                  <div class="email-detail text-size-md">
+                    <span>Email :</span>
+                    <span> test@gmail.com </span>
+                  </div>
+                </div>
               </div>
-            </div>
-          </div>
 
-          <div class="final-price-container">
-            <div class="text-only-card card-with-shadow">
-              <h2>PAYMENT DETAILS</h2>
-
-              <div class="card-body">
-                <hr />
-                <div class="item-price-detail">
-                  <p class="card-detail">Price (2 items)</p>
-                  <span class="discount"
-                    ><i class="fal fa-rupee-sign"></i>15200</span
-                  >
-                </div>
-
-                <div class="item-price-detail">
-                  <p class="card-detail">Discount</p>
-                  <span class="discount"
-                    >-<i class="fal fa-rupee-sign"></i>7200</span
-                  >
-                </div>
-
-                <div class="item-price-detail">
-                  <p class="card-detail">Delivery Charges</p>
-                  <span class="discount"
-                    ><i class="fal fa-rupee-sign"></i>800</span
-                  >
-                </div>
-                <hr />
-                <div class="item-price-detail">
-                  <p class="card-detail fw-bold">TOTAL AMOUNT</p>
-                  <span class="discount fw-bold"
-                    ><i class="fal fa-rupee-sign"></i>8800</span
-                  >
-                </div>
-
-                <div class="saving-quote">
-                  <p class="card-detail">
-                    You will save <i class="fal fa-rupee-sign"></i>7800 on this
-                    order.
+              <div class="address-detail details border-round" id="address">
+                <h2 class="text-size-md">My Address</h2>
+                <address class="address-container">
+                  <p class="text-size-md">Adrienne Ford</p>
+                  <p class="text-size-sm">
+                    70, Jal Vihar, Wazirabad, New Delhi-33
                   </p>
-                  <span
-                    ><button class="link-btn border-round">
-                      PROCEED
-                    </button></span
-                  >
-                </div>
+                  <p class="text-size-sm">India.</p>
+                  <p class="text-size-sm">Phone Number : 9867564509</p>
+                  <div class="address-btn-container">
+                    <button class="btn btn-secondary border-round">Edit</button>
+                    <button class="btn btn-primary border-round">Remove</button>
+                  </div>
+                </address>
+
+                <address class="address-container">
+                  <p class="text-size-md">Adrienne Ford</p>
+                  <p class="text-size-sm">
+                    70, Jal Vihar, Wazirabad, New Delhi-33
+                  </p>
+                  <p class="text-size-sm">India.</p>
+                  <p class="text-size-sm">Phone Number : 9867564509</p>
+                  <div class="address-btn-container">
+                    <button class="btn btn-secondary border-round">Edit</button>
+                    <button class="btn btn-primary border-round">Remove</button>
+                  </div>
+                </address>
+                <a href="">
+                  <button class="btn btn-warning border-round mt-3">
+                    + Add New Address
+                  </button>
+                </a>
+              </div>
+
+              <div class="account-settings details border-round" id="settings">
+                <h2 class="text-size-md">Account Settings</h2>
+                <a href="../index.html">
+                  <button class="btn btn-danger border-round mt-3">
+                    Log Out
+                  </button>
+                </a>
               </div>
             </div>
           </div>
@@ -187,4 +169,5 @@
       </section>
     </div>
   </body>
+  <script src="../stylesheets/profile/profile.js"></script>
 </html>

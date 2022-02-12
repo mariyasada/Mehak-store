@@ -14,3 +14,11 @@
 {
     color: var(--dark-blue);
 }
+.text-white
+{
+    color: (--white-color);
+}
+.text-size-xsm
+{
+    font-size: 0.7rem;
+}
