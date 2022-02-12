@@ -6,6 +6,7 @@
 @import url(/stylesheets/signup/signup.css);
 @import url(/stylesheets/product-detail/pDetail.css);
 @import url(/stylesheets/product-detail/textutil.css);
+@import url(/stylesheets/profile/profile.css);
 
 /*  reset css */
 html{
@@ -24,6 +25,12 @@ body{
 a{
     text-decoration: none;
     color:inherit;
+}
+.flex-center
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 
