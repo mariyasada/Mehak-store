@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>login Page</title>
+    <title>add address Page</title>
     <link
       rel="stylesheet"
       href="https://iqra-ui.netlify.app/stylesheets/main.css"
@@ -60,7 +60,7 @@
         <div class="nav-social-media-icons-container">
           <ul class="nav-items">
             <li class="nav-item">
-              <a href="/HtmlFiles/Login.html">
+              <a href="/HtmlFiles/user-profile.html">
                 <span class="nav-icon"
                   ><i class="fas fa-user" title="Log In"></i
                 ></span>
@@ -84,72 +84,84 @@
             </li>
           </ul>
         </div>
+        <span class="badge flex-center text-size-sm text-white">5</span>
+        <span class="badge badge-cart flex-center text-size-sm text-white"
+          >1</span
+        >
       </nav>
 
       <!-- -----------------------navbar ends here-------------------------------------- -->
       <section class="main-content-container">
-        <div class="login-page-container border-round">
-          <h2 class="heading heading-shadow">LOG IN</h2>
-          <div class="input-and-buttons-container">
+        <div class="add-address-container border-round">
+          <h2 class="heading text-size-xl">Add New Address</h2>
+          <div class="name-container">
+            <label for="FirstName" class="required-field">Full Name</label>
             <input
-              class="input-textbox"
-              placeholder="Enter your email here"
+              class="input-textbox input-sm"
+              placeholder="Enter Full Name"
               type="text"
             />
             <p class="alert alert-danger alert-with-flex">
               <i class="fas fa-exclamation-triangle"></i> please enter valid
-              email
+              name
             </p>
-            <span class="input-with-icon-container">
-              <input
-                class="input-textbox"
-                placeholder="Enter your password here"
-                type="password"
-              />
-              <button class="eye-icon" type="button">
-                <i class="fas fa-eye-slash"></i>
-              </button>
-            </span>
+            <label for="Mobile" class="required-field">Mobile No</label>
+            <input
+              class="input-textbox input-sm"
+              placeholder="Enter mobile number"
+              type="number"
+            />
+            <p class="alert alert-danger alert-with-flex">
+              <i class="fas fa-exclamation-triangle"></i> please enter 10 digits
+            </p>
+            <label for="Housenumber" class="required-field"
+              >Flat,House no., Building</label
+            >
+            <input
+              class="input-textbox input-sm"
+              placeholder="Enter house number, road"
+              type="text"
+            />
             <p class="alert alert-danger alert-with-flex">
               <i class="fas fa-exclamation-triangle"></i> please enter valid
-              password
+              address
             </p>
-            <span class="remember-me-and-link-container text-size-sm">
-              <span class="remember-checkbox">
-                <input
-                  type="checkbox"
-                  name="light"
-                  class="checkbox-input"
-                  value=""
-                />
-                <span class="text">Remember Me</span>
-              </span>
-              <a href="./forgotpassword.html" class="forgot-pass-link"
-                >Forgot your Password?</a
-              >
-            </span>
-            <span
-              ><button class="link-btn border-round fluid-btn">
-                LOGIN
-              </button></span
-            >
-            <span
-              ><button
-                class="btn link-btn btn-color-rose border-round fluid-btn mt-3"
-              >
-                Log In As Admin
-              </button></span
-            >
+            <label for="city" class="required-field">City</label>
+            <input
+              class="input-textbox input-sm"
+              placeholder="Enter City name"
+              type="text"
+            />
             <p class="alert alert-danger alert-with-flex">
-              <i class="fas fa-exclamation-triangle"></i> Email or Password is
-              incorrect
+              <i class="fas fa-exclamation-triangle"></i> please enter valid
+              City
             </p>
-            <span class="New-user-links">
-              <p>New User ?</p>
-              <a href="/HtmlFiles/signup.html" class="signup-link"
-                >Sign up here</a
-              >
-            </span>
+            <label for="State" class="required-field">State</label>
+            <input
+              class="input-textbox input-sm"
+              placeholder="Enter state name"
+              type="text"
+            />
+            <p class="alert alert-danger">
+              <i class="fas fa-exclamation-triangle"></i>
+              Please Enter state name
+            </p>
+            <label for="pincode" class="required-field">Pincode</label>
+            <input
+              class="input-textbox input-sm"
+              placeholder="Enter pincode"
+              type="number"
+            />
+            <p class="alert alert-danger">
+              <i class="fas fa-exclamation-triangle"></i>
+              Please Enter pincode
+            </p>
+            <span class="center flex-center"
+              ><button class="btn btn-primary border-round mt-3">SAVE</button>
+              <button class="btn btn-secondary border-round mt-3">
+                CANCEL
+              </button></span
+            >
           </div>
         </div>
       </section>

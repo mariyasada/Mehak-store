@@ -11,17 +11,16 @@ ProfileBtn.addEventListener( "click",() => {
    addressdetailsdiv.style.display="none";
    settingdetailDiv.style.display="none";
 
+
 })
 
 
-addressBtn.addEventListener( "click",() => {
-    console.log("clicked");
+addressBtn.addEventListener( "click",() => {    
     addressdetailsdiv.style.display==="none"? addressdetailsdiv.style.display = "block": addressdetailsdiv.style.display = "none";
     profiledetailDiv.style.display="none";
     settingdetailDiv.style.display="none";
 })
 settingBtn.addEventListener( "click",() => {
-    // console.log("clicked");
    let settingdetailDiv = detailcontainer[2];
    settingdetailDiv.style.display === "none"? settingdetailDiv.style.display = "block": settingdetailDiv.style.display = "none";
    addressdetailsdiv.style.display="none";

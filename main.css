@@ -6,8 +6,10 @@
 @import url(/stylesheets/signup/signup.css);
 @import url(/stylesheets/product-detail/pDetail.css);
 @import url(/stylesheets/product-detail/textutil.css);
-@import url(/stylesheets/profile/profile.css);
+@import url(/stylesheets/profile/user-profile.css);
 @import url(/stylesheets/address/address.css);
+@import url(/stylesheets/forgotpassword/forgotpassword.css);
+
 
 /*  reset css */
 html{

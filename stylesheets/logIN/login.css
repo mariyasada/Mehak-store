@@ -9,7 +9,7 @@
     align-items: center;
     margin: auto;
 }
-.input-buttons-container
+.input-and-buttons-container
 {
     display: flex;
     flex-direction: column;
@@ -88,5 +88,18 @@ button{
 {
     text-decoration: underline;
     color: var(--medium-teal);
+}
+.remember-me-and-link-container
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.3rem;
+    margin: 1rem;
+}
+ .forgot-pass-link
+{
+    color: var(--dark-cyan);
+    font-weight: bold;
 }
 
