@@ -89,7 +89,7 @@ button{
     text-decoration: underline;
     color: var(--medium-teal);
 }
-.remeber-me-and-link-container
+.remember-me-and-link-container
 {
     display: flex;
     align-items: center;
