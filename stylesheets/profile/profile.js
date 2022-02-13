@@ -9,7 +9,9 @@ let settingdetailDiv = detailcontainer[2];
 ProfileBtn.addEventListener( "click",() => {   
    profiledetailDiv.style.display==="none"? profiledetailDiv.style.display = "block": profiledetailDiv.style.display = "none";
    addressdetailsdiv.style.display="none";
-   settingdetailDiv.style.display="none"; 
+   settingdetailDiv.style.display="none";
+
+
 })
 
 
