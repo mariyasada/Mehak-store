@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>add address Page</title>
+    <link
+      rel="stylesheet"
+      href="https://iqra-ui.netlify.app/stylesheets/main.css"
+    />
+    <link rel="stylesheet" href="/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="/path/to/font-awesome/css/font-awesome.min.css"
+      type="text/css"
+    />
+  </head>
+  <body>
+    <div class="grid-container">
+      <!---------------------- nav bar --------------- -->
+      <nav class="navbar">
+        <!---------------------nav items------------------------------------------------ -->
+        <div class="nav-content-container">
+          <ul class="nav-items">
+            <li class="nav-item nav-item-active">
+              <a href="/index.html">Home</a>
+            </li>
+
+            <li class="nav-item">
+              <a href="/HtmlFiles/productlist.html">Shop</a>
+            </li>
+
+            <li class="nav-item">
+              <div class="serchbox-container">
+                <input
+                  type="text"
+                  placeholder="search"
+                  class="input-searchbox border-round"
+                />
+              </div>
+            </li>
+          </ul>
+        </div>
+        <!-- ---------------------------------------------logo image------------------------------- -->
+        <div class="logo-container">
+          <div class="logo">
+            <img class="logo-image" src="/Image/Mehak.png" />
+          </div>
+
+          <div class="logo-text"><em>Mehak </em></div>
+        </div>
+        <!------------------------------ nav bar social media icons------------------------------------------------------------------------------- -->
+        <div class="nav-social-media-icons-container">
+          <ul class="nav-items">
+            <li class="nav-item">
+              <a href="/HtmlFiles/user-profile.html">
+                <span class="nav-icon"
+                  ><i class="fas fa-user" title="Log In"></i
+                ></span>
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a href="/HtmlFiles/wishlist.html">
+                <span class="nav-icon"
+                  ><i class="far fa-heart" title="WishList"></i
+                ></span>
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a href="/HtmlFiles/cart.html">
+                <span class="nav-icon"
+                  ><i class="fad fa-shopping-bag" title="Cart"></i
+                ></span>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <span class="badge flex-center text-size-sm text-white">5</span>
+        <span class="badge badge-cart flex-center text-size-sm text-white"
+          >1</span
+        >
+      </nav>
+
+      <!-- -----------------------navbar ends here-------------------------------------- -->
+      <section class="main-content-container">
+        <div class="add-address-container border-round">
+          <h2 class="heading text-size-xl">Add New Address</h2>
+          <div class="name-container">
+            <label for="FirstName" class="required-field">Full Name</label>
+            <input
+              class="input-textbox input-sm"
+              placeholder="Enter Full Name"
+              type="text"
+            />
+            <p class="alert alert-danger alert-with-flex">
+              <i class="fas fa-exclamation-triangle"></i> please enter valid
+              name
+            </p>
+            <label for="Mobile" class="required-field">Mobile No</label>
+            <input
+              class="input-textbox input-sm"
+              placeholder="Enter mobile number"
+              type="number"
+            />
+            <p class="alert alert-danger alert-with-flex">
+              <i class="fas fa-exclamation-triangle"></i> please enter 10 digits
+            </p>
+            <label for="Housenumber" class="required-field"
+              >Flat,House no., Building</label
+            >
+            <input
+              class="input-textbox input-sm"
+              placeholder="Enter house number, road"
+              type="text"
+            />
+            <p class="alert alert-danger alert-with-flex">
+              <i class="fas fa-exclamation-triangle"></i> please enter valid
+              address
+            </p>
+            <label for="city" class="required-field">City</label>
+            <input
+              class="input-textbox input-sm"
+              placeholder="Enter City name"
+              type="text"
+            />
+            <p class="alert alert-danger alert-with-flex">
+              <i class="fas fa-exclamation-triangle"></i> please enter valid
+              City
+            </p>
+            <label for="State" class="required-field">State</label>
+            <input
+              class="input-textbox input-sm"
+              placeholder="Enter state name"
+              type="text"
+            />
+            <p class="alert alert-danger">
+              <i class="fas fa-exclamation-triangle"></i>
+              Please Enter state name
+            </p>
+            <label for="pincode" class="required-field">Pincode</label>
+            <input
+              class="input-textbox input-sm"
+              placeholder="Enter pincode"
+              type="number"
+            />
+            <p class="alert alert-danger">
+              <i class="fas fa-exclamation-triangle"></i>
+              Please Enter pincode
+            </p>
+            <span class="center flex-center"
+              ><button class="btn btn-primary border-round mt-3">SAVE</button>
+              <button class="btn btn-secondary border-round mt-3">
+                CANCEL
+              </button></span
+            >
+          </div>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
