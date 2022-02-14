@@ -4,8 +4,7 @@
     display: flex;
     flex-wrap: wrap;
     height: auto;
-    padding: 1.5rem;
-    display: flex;
+    padding: 1.5rem;    
     gap:2rem;
 }
 .card-body
