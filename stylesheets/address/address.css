@@ -1,11 +1,9 @@
 .add-address-container
 {
     height: 700px;   
-   width:90%;    
-    display:flex;
+   max-width:80%;       
     flex-direction: column;
-    box-shadow: 2px 2px 5px var(--dark-stone);
-    align-items: center;
+    box-shadow: 2px 2px 5px var(--dark-stone);    
     margin: auto;
     
 }
