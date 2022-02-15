@@ -93,4 +93,8 @@
       {
          flex-direction: column;
       }
+      .text-size-sm
+      {
+          line-height: 2rem;
+      }
     }

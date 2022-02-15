@@ -2,11 +2,13 @@
 .login-page-container
 {
     min-height:70vh ;
-    max-width:40vw;
+    max-width:50vw;
     display:flex;
+    padding: 1rem;
     flex-direction: column;
     box-shadow: 2px 2px 4px var(--dark-stone);
     align-items: center;
+    justify-content: center;
     margin: auto;
 }
 .input-and-buttons-container
@@ -28,16 +30,15 @@
 }
 .input-textbox
 {
-    min-width:30vw;
+    min-width:40vw;
     border: 1px solid var(--light-stone);
 }
 .input-with-icon-container
 {
-    width:100%;
+    min-width:100%;
     position: relative;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: center;    
 }
 .eye-icon
 {
@@ -60,7 +61,7 @@
 }
 .link-btn.fluid-btn
 {
-   min-width: 31vw;
+   max-width: 50vw;
    font-weight: bold;
    background: transparent;
    color:var(--light-rose);
@@ -102,4 +103,37 @@ button{
     color: var(--dark-cyan);
     font-weight: bold;
 }
+@media only screen and (min-width:250px)  and (max-width:600px){
+
+    body {
+        height: 100%;
+        width: 100%;
+      }
+      .login-page-container
+      {
+        min-width: 90vw;
+        padding: 2rem;
+      }
+      .link-btn.fluid-btn
+      {
+            min-width: 80vw;
+      }
+      .input-with-icon-container
+      {
+          min-width: 100%;
+          display: flex;
+      }
+      .input-textbox
+      {
+          min-width:80vw;
+      }
+      .eye-icon
+      {
+          right:1rem;
+      }
+      .sign-up-page-container 
+      {
+          padding: 2rem;
+      }
+    }
 
