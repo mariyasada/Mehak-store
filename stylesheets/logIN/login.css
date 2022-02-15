@@ -131,9 +131,10 @@ button{
       {
           right:1rem;
       }
-      .sign-up-page-container 
+      .sign-up-page-container
       {
           padding: 2rem;
+          max-width: 70vw;
       }
     }
 

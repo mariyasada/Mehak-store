@@ -1,8 +1,7 @@
 .add-address-container
 {
-    height: 700px;
-    padding: 1rem;
-    max-width:80%;
+    height: 700px;   
+   width:90%;    
     display:flex;
     flex-direction: column;
     box-shadow: 2px 2px 5px var(--dark-stone);
@@ -10,3 +9,15 @@
     margin: auto;
     
 }
+@media only screen and (min-width:402px)  and (max-width:800px){
+
+    body {
+        height: 100%;
+        width: 100%;
+      }
+      .add-address-container
+      {
+          max-width:70vw;
+      }
+    
+    }
