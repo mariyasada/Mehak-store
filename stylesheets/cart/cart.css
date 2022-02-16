@@ -4,13 +4,15 @@
     display: grid;
     grid-template-columns: repeat(2,1fr);
     height: auto;
-    padding: 1.5rem;    
+    padding: 1.5rem;  
+
     gap:1rem;
 }
 .product-container
 {
     display: flex;
     flex-direction: column;
+
     gap:2rem;
 }
 .card-body
