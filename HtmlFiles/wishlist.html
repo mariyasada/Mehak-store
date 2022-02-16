@@ -1,92 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Product Listing page</title>
-    <link
-      rel="stylesheet"
-      href="https://iqra-ui.netlify.app/stylesheets/main.css"
-    />
+    <link rel="stylesheet" href="https://iqra-ui.netlify.app/stylesheets/main.css" />
     <link rel="stylesheet" href="/main.css" />
-    <link
-      rel="stylesheet"
-      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
-      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
-      crossorigin="anonymous"
-    />
-    <link
-      rel="stylesheet"
-      href="/path/to/font-awesome/css/font-awesome.min.css"
-      type="text/css"
-    />
-  </head>
-  <body>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" href="/path/to/font-awesome/css/font-awesome.min.css" type="text/css" />
+</head>
+
+<body>
     <div class="grid-container">
-      <!---------------------- nav bar --------------- -->
-      <nav class="navbar">
-        <!---------------------nav items------------------------------------------------ -->
-        <div class="nav-content-container">
-          <ul class="nav-items">
-            <li class="nav-item nav-item-active">
-              <a href="/index.html">Home</a>
-            </li>
+        <!---------------------- nav bar --------------- -->
+        <nav class="navbar">
+            <!---------------------nav items------------------------------------------------ -->
+            <div class="nav-content-container">
+                <ul class="nav-items">
+                    <li class="nav-item nav-item-active">
+                        <a href="/index.html">Home</a>
+                    </li>
 
-            <li class="nav-item">
-              <a href="./productlist.html">Shop</a>
-            </li>
+                    <li class="nav-item">
+                        <a href="./productlist.html">Shop</a>
+                    </li>
 
-            <li class="nav-item">
-              <div class="serchbox-container">
-                <input
-                  type="text"
-                  placeholder="search"
-                  class="input-searchbox border-round"
-                />
-              </div>
-            </li>
-          </ul>
-        </div>
-        <!-- ---------------------------------------------logo image------------------------------- -->
-        <div class="logo-container">
-          <div class="logo">
-            <img class="logo-image" src="/Image/Mehak.png" />
-          </div>
+                    <li class="nav-item">
+                        <div class="serchbox-container">
+                            <input type="text" placeholder="search" class="input-searchbox border-round" />
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <!-- ---------------------------------------------logo image------------------------------- -->
+            <div class="logo-container">
+                <div class="logo">
+                    <img class="logo-image" src="/Image/Mehak.png" />
+                </div>
 
-          <div class="logo-text"><em>Mehak </em></div>
-        </div>
-        <!------------------------------ nav bar social media icons------------------------------------------------------------------------------- -->
-        <div class="nav-social-media-icons-container">
-          <ul class="nav-items">
-            <li class="nav-item">
-              <a href="/HtmlFiles/user-profile.html">
-                <span class="nav-icon"
-                  ><i class="fas fa-user" title="Log In"></i
+                <div class="logo-text"><em>Mehak </em></div>
+            </div>
+            <!------------------------------ nav bar social media icons------------------------------------------------------------------------------- -->
+            <div class="nav-social-media-icons-container">
+                <ul class="nav-items">
+                    <li class="nav-item">
+                        <a href="/HtmlFiles/user-profile.html">
+                            <span class="nav-icon"><i class="fas fa-user" title="Log In"></i
                 ></span>
-              </a>
-            </li>
+                        </a>
+                    </li>
 
-            <li class="nav-item">
-              <a href="/HtmlFiles/wishlist.html">
-                <span class="nav-icon"
-                  ><i class="far fa-heart" title="WishList"></i
+                    <li class="nav-item">
+                        <a href="/HtmlFiles/wishlist.html">
+                            <span class="nav-icon"><i class="far fa-heart" title="WishList"></i
                 ></span>
-              </a>
-            </li>
+                        </a>
+                    </li>
 
-            <li class="nav-item">
-              <a href="/HtmlFiles/cart.html">
-                <span class="nav-icon"
-                  ><i class="fad fa-shopping-bag" title="Cart"></i
+                    <li class="nav-item">
+                        <a href="/HtmlFiles/cart.html">
+                            <span class="nav-icon"><i class="fad fa-shopping-bag" title="Cart"></i
                 ></span>
-              </a>
-            </li>
-          </ul>
-        </div>
-        <span class="badge flex-center text-size-sm text-white">5</span>
-        <span class="badge badge-cart flex-center text-size-sm text-white"
-          >1</span
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <span class="badge flex-center text-size-sm text-white">5</span>
+            <span class="badge badge-cart flex-center text-size-sm text-white">1</span
         >
       </nav>
 
@@ -103,22 +85,21 @@
               />
             </div>
 
-            <div class="card-body center">
+            <div class="card-body">
               <span class="card-title fw-300"
                 >Acqua-di-Gio-Essenza- 150ml (MEN)</span
               >
               <p class="card-detail">by Armani</p>
               <span class="discount"> Rs.999</span>
-              <span class="rating-badge">
+            <span class="rating-badge">
                 <div class="rating-container bg-green border-round">
                   <div class="rating-with-icon">
                     4.5<i class="fas fa-star"></i>
                   </div>
                 </div>
               </span>
-              <div class="btns-in-flex">
-                <a href="./cart.html" class="btn fc-pink border-round fw-bold"
-                  >MOVE TO CART</a
+            <div class="btns-in-flex">
+                <a href="./cart.html" class="btn fc-pink border-round fw-bold">MOVE TO CART</a
                 >
                 <span class="btn-wishlist"><i class="fas fa-heart"></i> </span>
               </div>
@@ -135,13 +116,13 @@
               />
             </div>
 
-            <div class="card-body center">
+            <div class="card-body">
               <span class="card-title fw-300"
                 >Allure-Homme-Sport-Chanel - 100ml (MEN)</span
               >
               <p class="card-detail">by Chanel</p>
-              <p class="price">Rs.1500</p>
               <span class="discount">Rs.1000</span>
+              <p class="price">Rs.1500</p>
               <span class="rating-badge">
                 <div class="rating-container bg-yellow border-round">
                   <div class="rating-with-icon">
@@ -167,7 +148,7 @@
               />
             </div>
 
-            <div class="card-body center">
+            <div class="card-body">
               <span class="card-title fw-300"
                 >Armani-prive-cuir- 100ml (MEN)</span
               >
@@ -197,7 +178,7 @@
               />
             </div>
 
-            <div class="card-body center">
+            <div class="card-body">
               <span class="card-title fw-300"
                 >Armani-Royal_Oud- 150ml (MEN)</span
               >
@@ -228,7 +209,7 @@
               />
             </div>
 
-            <div class="card-body center">
+            <div class="card-body">
               <span class="card-title fw-300"
                 >Armani-sundigioia- 150ml (MEN)</span
               >
