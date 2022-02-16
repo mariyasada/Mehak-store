@@ -1,5 +1,8 @@
 .btn {
     margin-top: var(--margin-padding-sm);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .btn-wishlist {
