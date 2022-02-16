@@ -1,200 +1,158 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Product Listing page</title>
-    <link
-      rel="stylesheet"
-      href="https://iqra-ui.netlify.app/stylesheets/main.css"
-    />
+    <link rel="stylesheet" href="https://iqra-ui.netlify.app/stylesheets/main.css" />
     <link rel="stylesheet" href="/main.css" />
-    <link
-      rel="stylesheet"
-      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
-      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
-      crossorigin="anonymous"
-    />
-    <link
-      rel="stylesheet"
-      href="/path/to/font-awesome/css/font-awesome.min.css"
-      type="text/css"
-    />
-  </head>
-  <body>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" href="/path/to/font-awesome/css/font-awesome.min.css" type="text/css" />
+</head>
+
+<body>
     <div class="grid-container">
-      <!---------------------- nav bar --------------- -->
-      <nav class="navbar">
-        <!---------------------nav items------------------------------------------------ -->
-        <div class="nav-content-container">
-          <ul class="nav-items">
-            <li class="nav-item">
-              <a href="/index.html">Home</a>
-            </li>
+        <!---------------------- nav bar --------------- -->
+        <nav class="navbar">
+            <!---------------------nav items------------------------------------------------ -->
+            <div class="nav-content-container">
+                <ul class="nav-items">
+                    <li class="nav-item">
+                        <a href="/index.html">Home</a>
+                    </li>
 
-            <li class="nav-item nav-item-active">
-              <a href="./productlist.html">Shop</a>
-            </li>
+                    <li class="nav-item nav-item-active">
+                        <a href="./productlist.html">Shop</a>
+                    </li>
 
-            <li class="nav-item">
-              <div class="serchbox-container">
-                <input
-                  type="text"
-                  placeholder="search"
-                  class="input-searchbox border-round"
-                />
-              </div>
-            </li>
-          </ul>
-        </div>
-        <!-- ---------------------------------------------logo image------------------------------- -->
-        <div class="logo-container">
-          <div class="logo">
-            <img class="logo-image" src="/Image/Mehak.png" />
-          </div>
-
-          <div class="logo-text"><em>Mehak </em></div>
-        </div>
-        <!------------------------------ nav bar social media icons------------------------------------------------------------------------------- -->
-        <div class="nav-social-media-icons-container">
-          <ul class="nav-items">
-            <li class="nav-item">
-              <a href="/HtmlFiles/Login.html">
-                <span class="nav-icon"
-                  ><i class="fas fa-user" title="Log In"></i
-                ></span>
-              </a>
-            </li>
-
-            <li class="nav-item">
-              <a href="/HtmlFiles/wishlist.html">
-                <span class="nav-icon"
-                  ><i class="far fa-heart" title="WishList"></i
-                ></span>
-              </a>
-            </li>
-
-            <li class="nav-item">
-              <a href="/HtmlFiles/cart.html">
-                <span class="nav-icon"
-                  ><i class="fad fa-shopping-bag" title="Cart"></i
-                ></span>
-              </a>
-            </li>
-          </ul>
-        </div>
-      </nav>
-      <!-- -----------------------navbar ends here & sidebar starts from here-------------------------------------- -->
-      <aside class="sidebar-container sidebar-content">
-        <ul class="sidebar-items">
-          <!-- ----------sort--------------------------- -->
-          <span class="filter-icon"><i class="fas fa-redo"></i></span>
-          <h4 class="sidebar-content-item">Sort</h4>
-          <li class="sidebar-list">
-            <input
-              type="radio"
-              value="price low to high"
-              name="sort-btn"
-            />Price Low to High
-          </li>
-          <li class="sidebar-list">
-            <input
-              type="radio"
-              value="price low to high"
-              name="sort-btn"
-            />Price High to Low
-          </li>
-
-          <!-- -------------------CATEGORY-------------- -->
-          <h4 class="sidebar-content-item">CATEGORY</h4>
-          <li class="sidebar-list">
-            <input type="checkbox" value="Men" name="category-btn" />Men
-          </li>
-          <li class="sidebar-list">
-            <input type="checkbox" value="Women" name="category-btn" />Women
-          </li>
-
-          <!-- -------------------Availability-------------- -->
-          <h4 class="sidebar-content-item">Availability</h4>
-          <li class="sidebar-list">
-            <input
-              type="checkbox"
-              value="In-stock"
-              name="available-btn"
-            />In-Stock
-          </li>
-          <li class="sidebar-list">
-            <input
-              type="checkbox"
-              value="out-ot-stock"
-              name="available-btn"
-            />Out-Of-Stock
-          </li>
-
-          <!-- -------------------Brand-------------- -->
-          <h4 class="sidebar-content-item">Brand</h4>
-          <li class="sidebar-list">
-            <input type="checkbox" value="Armani" name="available-btn" />Armani
-          </li>
-          <li class="sidebar-list">
-            <input type="checkbox" value="Chanel" name="available-btn" />Chanel
-          </li>
-          <li class="sidebar-list">
-            <input type="checkbox" value="Gucci" name="available-btn" />Gucci
-          </li>
-          <li class="sidebar-list">
-            <input type="checkbox" value="Zara" name="available-btn" />Zara
-          </li>
-          <li class="sidebar-list">
-            <input
-              type="checkbox"
-              value="Estee Lauder"
-              name="available-btn"
-            />Estee Lauder
-          </li>
-
-          <!-- ------------------Quantity----------- -->
-
-          <h4 class="sidebar-content-item">Quantity</h4>
-          <li class="sidebar-list">
-            <input type="checkbox" value="Men" name="quantity-btn" />150 ml
-          </li>
-          <li class="sidebar-list">
-            <input type="checkbox" value="Women" name="quantity-btn" />100 ml
-          </li>
-        </ul>
-      </aside>
-      <!-------------------------------------- product list container------ -->
-      <main class="main-content-container">
-        <div class="grid-3-column-layout">
-          <div class="card-for-ecommerce pd-1 card-with-shadow">
-            <div class="card-image-holder">
-              <a href="/HtmlFiles/product-detail.html">
-                <img
-                  src="/Image/MEN/Acqua-di-Gio-Essenza-Giorgio-Armani_men.jpg"
-                  class="card-image"
-                />
-              </a>
-              <span class="sold-out-badge">Sold out</span>
+                    <li class="nav-item">
+                        <div class="serchbox-container">
+                            <input type="text" placeholder="search" class="input-searchbox border-round" />
+                        </div>
+                    </li>
+                </ul>
             </div>
+            <!-- ---------------------------------------------logo image------------------------------- -->
+            <div class="logo-container">
+                <div class="logo">
+                    <img class="logo-image" src="/Image/Mehak.png" />
+                </div>
 
-            <div class="card-body center">
-              <span class="card-title fw-300"
-                >Acqua-di-Gio-Essenza- 150ml (MEN)</span
+                <div class="logo-text"><em>Mehak </em></div>
+            </div>
+            <!------------------------------ nav bar social media icons------------------------------------------------------------------------------- -->
+            <div class="nav-social-media-icons-container">
+                <ul class="nav-items">
+                    <li class="nav-item">
+                        <a href="/HtmlFiles/Login.html">
+                            <span class="nav-icon"><i class="fas fa-user" title="Log In"></i
+                ></span>
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="/HtmlFiles/wishlist.html">
+                            <span class="nav-icon"><i class="far fa-heart" title="WishList"></i
+                ></span>
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="/HtmlFiles/cart.html">
+                            <span class="nav-icon"><i class="fad fa-shopping-bag" title="Cart"></i
+                ></span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!-- -----------------------navbar ends here & sidebar starts from here-------------------------------------- -->
+        <aside class="sidebar-container sidebar-content">
+            <ul class="sidebar-items">
+                <!-- ----------sort--------------------------- -->
+                <span class="filter-icon"><i class="fas fa-redo"></i></span>
+                <h4 class="sidebar-content-item">Sort</h4>
+                <li class="sidebar-list">
+                    <input type="radio" value="price low to high" name="sort-btn" />Price Low to High
+                </li>
+                <li class="sidebar-list">
+                    <input type="radio" value="price low to high" name="sort-btn" />Price High to Low
+                </li>
+
+                <!-- -------------------CATEGORY-------------- -->
+                <h4 class="sidebar-content-item">CATEGORY</h4>
+                <li class="sidebar-list">
+                    <input type="checkbox" value="Men" name="category-btn" />Men
+                </li>
+                <li class="sidebar-list">
+                    <input type="checkbox" value="Women" name="category-btn" />Women
+                </li>
+
+                <!-- -------------------Availability-------------- -->
+                <h4 class="sidebar-content-item">Availability</h4>
+                <li class="sidebar-list">
+                    <input type="checkbox" value="In-stock" name="available-btn" />In-Stock
+                </li>
+                <li class="sidebar-list">
+                    <input type="checkbox" value="out-ot-stock" name="available-btn" />Out-Of-Stock
+                </li>
+
+                <!-- -------------------Brand-------------- -->
+                <h4 class="sidebar-content-item">Brand</h4>
+                <li class="sidebar-list">
+                    <input type="checkbox" value="Armani" name="available-btn" />Armani
+                </li>
+                <li class="sidebar-list">
+                    <input type="checkbox" value="Chanel" name="available-btn" />Chanel
+                </li>
+                <li class="sidebar-list">
+                    <input type="checkbox" value="Gucci" name="available-btn" />Gucci
+                </li>
+                <li class="sidebar-list">
+                    <input type="checkbox" value="Zara" name="available-btn" />Zara
+                </li>
+                <li class="sidebar-list">
+                    <input type="checkbox" value="Estee Lauder" name="available-btn" />Estee Lauder
+                </li>
+
+                <!-- ------------------Quantity----------- -->
+
+                <h4 class="sidebar-content-item">Quantity</h4>
+                <li class="sidebar-list">
+                    <input type="checkbox" value="Men" name="quantity-btn" />150 ml
+                </li>
+                <li class="sidebar-list">
+                    <input type="checkbox" value="Women" name="quantity-btn" />100 ml
+                </li>
+            </ul>
+        </aside>
+        <!-------------------------------------- product list container------ -->
+        <main class="main-content-container">
+            <div class="grid-3-column-layout">
+                <div class="card-for-ecommerce pd-1 card-with-shadow">
+                    <div class="card-image-holder">
+                        <a href="/HtmlFiles/product-detail.html">
+                            <img src="/Image/MEN/Acqua-di-Gio-Essenza-Giorgio-Armani_men.jpg" class="card-image" />
+                        </a>
+                        <span class="sold-out-badge">Sold out</span>
+                    </div>
+
+                    <div class="card-body center">
+                        <span class="card-title fw-300">Acqua-di-Gio-Essenza- 150ml (MEN)</span
               >
               <p class="card-detail">by Armani</p>
               <span class="discount"> RS.999</span>
-              <span class="rating-badge">
+                        <span class="rating-badge">
                 <div class="rating-container bg-green border-round">
                   <div class="rating-with-icon">
                     4.5<i class="fas fa-star"></i>
                   </div>
                 </div>
               </span>
-              <div class="btns-in-flex">
-                <a href="" class="link-btn link-btn-lg btn-outline border-round"
-                  >NOTIFY ME</a
+                        <div class="btns-in-flex">
+                            <a href="" class="link-btn link-btn-lg btn-outline border-round">NOTIFY ME</a
                 >
                 <span class="btn-wishlist"><i class="far fa-heart"></i> </span>
               </div>
@@ -234,35 +192,30 @@
                 <a href="./wishlist.html" class="btn-wishlist"
                   ><i class="far fa-heart"></i>
                 </a>
-              </div>
-            </div>
-          </div>
-          <!-- ---------------------------------------third card--------------------------- -->
+                        </div>
+                    </div>
+                </div>
+                <!-- ---------------------------------------third card--------------------------- -->
 
-          <div class="card-for-ecommerce pd-1 card-with-shadow">
-            <div class="card-image-holder">
-              <img
-                src="/Image/MEN/armani-prive-cuir_men.jpg"
-                class="card-image"
-              />
-            </div>
+                <div class="card-for-ecommerce pd-1 card-with-shadow">
+                    <div class="card-image-holder">
+                        <img src="/Image/MEN/armani-prive-cuir_men.jpg" class="card-image" />
+                    </div>
 
-            <div class="card-body center">
-              <span class="card-title fw-300"
-                >Armani-prive-cuir- 100ml (MEN)</span
+                    <div class="card-body center">
+                        <span class="card-title fw-300">Armani-prive-cuir- 100ml (MEN)</span
               >
               <p class="card-detail">by Armani</p>
               <span class="discount">RS.1209</span>
-              <span class="rating-badge">
+                        <span class="rating-badge">
                 <div class="rating-container bg-yellow border-round">
                   <div class="rating-with-icon">
                     3.8<i class="fas fa-star"></i>
                   </div>
                 </div>
               </span>
-              <div class="btns-in-flex">
-                <a href="" class="link-btn link-btn-lg btn-outline border-round"
-                  >ADD TO CART</a
+                        <div class="btns-in-flex">
+                            <a href="" class="link-btn link-btn-lg btn-outline border-round">ADD TO CART</a
                 >
                 <span class="btn-wishlist"><i class="far fa-heart"></i></span>
               </div>
@@ -276,24 +229,22 @@
                   src="/Image/MEN/Armani-Royal-Oud_men.jpg"
                   class="card-image"
               /></a>
-            </div>
+                        </div>
 
-            <div class="card-body center">
-              <span class="card-title fw-300"
-                >Armani-Royal_Oud- 150ml (MEN)</span
+                        <div class="card-body center">
+                            <span class="card-title fw-300">Armani-Royal_Oud- 150ml (MEN)</span
               >
               <p class="card-detail">by Armani</p>
               <span class="discount">RS.2000</span>
-              <span class="rating-badge">
+                            <span class="rating-badge">
                 <div class="rating-container bg-green border-round">
                   <div class="rating-with-icon">
                     4<i class="fas fa-star"></i>
                   </div>
                 </div>
               </span>
-              <div class="btns-in-flex">
-                <a href="" class="link-btn link-btn-lg btn-outline border-round"
-                  >ADD TO CART</a
+                            <div class="btns-in-flex">
+                                <a href="" class="link-btn link-btn-lg btn-outline border-round">ADD TO CART</a
                 >
                 <span class="btn-wishlist"><i class="far fa-heart"></i> </span>
               </div>
