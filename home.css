@@ -139,7 +139,7 @@ footer {
     justify-content: center;
     gap: 2rem;
     min-width: 100%;
-    grid-column: 1/-1;
+    /* grid-column: 1/-1; */
     bottom: 0;
     position: fixed;
     z-index: 200;
