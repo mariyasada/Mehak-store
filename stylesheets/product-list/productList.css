@@ -59,6 +59,15 @@
     cursor: pointer;
 }
 
+.card-body {
+    margin-left: 1.5rem;
+}
+
+.price {
+    color: var(--light-stone);
+    padding: 2.5rem;
+}
+
 .fw-300 {
     font-weight: 300;
 }
@@ -69,7 +78,7 @@
     color: var(--white-color);
     margin-top: 0.3rem;
     align-self: center;
-    min-width: 8rem;
+    min-width: 11rem;
 }
 
 .sold-out-badge {
@@ -77,12 +86,12 @@
 }
 
 .rating-badge {
-    left: 17.5rem;
-    top: 6.1rem;
+    left: 8.5rem;
+    top: 6.3rem;
 }
 
 .rating-badge.estee-badge {
-    left: 19.3rem;
+    left: 12.3rem;
 }
 
 .btn-wishlist {
@@ -95,7 +104,6 @@
 .btns-in-flex {
     display: flex;
     align-items: center;
-    justify-content: center;
 }
 
 .price {
@@ -113,6 +121,7 @@
     }
     .rating-with-icon {
         max-width: 3.5rem;
+        padding: 0.2rem;
         flex-shrink: 2;
     }
     .grid-3-column-layout {

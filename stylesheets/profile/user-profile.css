@@ -1,60 +1,62 @@
-.heart-with-badge
-{
+.heart-with-badge {
     position: relative;
 }
-.badge
-{
+
+.badge {
     height: 1.7rem;
     position: absolute;
-    width:1.7rem;
+    width: 1.7rem;
     background-color: var(--dark-sky);
     border-radius: 50%;
-    top:2.4rem;
-    right:8.4rem;
+    top: 2.4rem;
+    right: 8.4rem;
     color: var(--white-color);
 }
-.badge.badge-cart
-{
+
+.badge.badge-cart {
     right: 2rem;
 }
-.profile-container
-{
-    height:80vh;
-    width:auto;
+
+.profile-container {
+    height: 80vh;
+    width: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.user-profile-details
-{
-   height: auto;
-   max-width:60vw;
-  flex-direction: column;
+
+.user-profile-details {
+    height: auto;
+    max-width: 60vw;
+    flex-direction: column;
 }
-.btn-container{
-  max-width: 60vw;
-  margin: auto;
+
+.btn-container {
+    max-width: 60vw;
+    margin: auto;
+    gap: 1rem;
 }
-.btn-tabs
-{
-    width:15rem;
+
+.btn-tabs {
+    min-width: 15rem;
     background-color: var(--dark-sky);
     border: none;
-    height:3rem;
+    height: 3rem;
     color: var(--white-color);
 }
-.btn-tabs:hover{
+
+.btn-tabs:hover {
     background-color: var(--medium-teal);
 }
-.details-container
-{
-    width:100%;
-    /* box-shadow: 2px 2px 4px var(--light-stone); */
+
+.details-container {
+    width: 100%;
     align-self: center;
     padding: 4rem;
     margin: 4rem;
     height: inherit;
 }
+
 .address-detail,
 .account-settings,
 .user-detail {
@@ -66,35 +68,41 @@
     padding: inherit;
 }
 
-.address-container{
- line-height: 1rem;
+.address-container {
+    line-height: 1rem;
 }
-.address-btn-container
-{
-    min-width:30rem;
+
+.btn {
+    min-width: 15rem;
+    max-width: 20rem;
+}
+
+.address-btn-container {
+    max-width: 30rem;
+    gap: 0.7rem;
     display: flex;
     flex-direction: row;
+    align-items: center;
 }
-.btn.btn-warning:hover{
+
+.btn.btn-warning:hover {
     background-color: var(--dark-sky);
 }
+
 .address-detail,
-.account-settings
-{
+.account-settings {
     display: none;
 }
-@media only screen and (min-width:250px)  and (max-width:970px){
 
+@media only screen and (min-width: 250px) and (max-width: 970px) {
     body {
         height: 100%;
         width: 100%;
-      }
-      .address-btn-container
-      {
-         flex-direction: column;
-      }
-      .text-size-sm
-      {
-          line-height: 2rem;
-      }
     }
+    .address-btn-container {
+        flex-direction: column;
+    }
+    .text-size-sm {
+        line-height: 2rem;
+    }
+}

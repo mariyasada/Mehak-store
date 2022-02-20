@@ -1,21 +1,21 @@
-.add-address-container
-{
-    height: 700px;   
-   max-width:80%;       
+.add-address-container {
+    height: 700px;
+    max-width: 80%;
     flex-direction: column;
-    box-shadow: 2px 2px 5px var(--dark-stone);    
+    box-shadow: 2px 2px 5px var(--dark-stone);
     margin: auto;
-    
 }
-@media only screen and (min-width:402px)  and (max-width:800px){
 
+.gap {
+    gap: 1rem;
+}
+
+@media only screen and (min-width: 402px) and (max-width: 800px) {
     body {
         height: 100%;
         width: 100%;
-      }
-      .add-address-container
-      {
-          max-width:70vw;
-      }
-    
     }
+    .add-address-container {
+        max-width: 70vw;
+    }
+}

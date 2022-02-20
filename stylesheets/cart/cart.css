@@ -1,90 +1,103 @@
-.cart-order-container
-{
-    min-width: 80vw;    
+.cart-order-container {
+    min-width: 80vw;
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
     height: auto;
-    padding: 1.5rem;  
-
-    gap:1rem;
+    padding: 1.5rem;
+    gap: 1rem;
 }
-.product-container
-{
+
+.product-container {
     display: flex;
     flex-direction: column;
-
-    gap:2rem;
+    gap: 2rem;
 }
-.card-body
-{
+
+.card-body {
     min-width: 20rem;
 }
-.button-container
-{
+
+.button-container {
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
 }
-.fc-pink
-{
+
+.fc-pink {
     border: 2px solid var(--secondary-color);
     color: var(--light-rose);
 }
+
+.price-cut {
+    color: var(--light-stone);
+    font-size: 1.5rem;
+    text-decoration: line-through;
+}
+
 .price-details,
 .card-qty-flex,
-.item-price-detail
-{
+.item-price-detail {
     display: flex;
-    gap:0.3rem;
+    gap: 0.4rem;
     align-items: center;
-    justify-content: center;
 }
-.card-qty-flex
-{
+
+.button-container .button-lg {
+    min-width: 16.6rem;
+}
+
+.card-qty-flex {
     justify-content: flex-start;
 }
-.discount-tag
-{
+
+.discount-tag {
     color: var(--light-rose);
     font-size: 1.3rem;
 }
-.qty
-{
-    height:2rem;
-    width:4rem;
-    border:1px solid var(--light-stone);
+
+.qty {
+    height: 2rem;
+    width: 4rem;
+    border: 1px solid var(--light-stone);
     text-align: center;
     padding: var(--margin-padding-sm);
     border-radius: 0.3rem;
-    margin:var(--margin-padding-sm);
+    margin: var(--margin-padding-sm);
 }
-.item-price-detail .discount
-{
+
+.item-price-detail .discount {
     margin-left: auto;
 }
-hr{
+
+hr {
     max-width: 70vw;
     margin: 0 auto;
 }
-.text-only-card
-{
+
+.text-only-card {
     padding: 2rem;
 }
-.fw-bold
-{
+
+.fw-bold {
     font-weight: bold;
 }
-.item-price-detail{
+
+.item-price-detail {
     margin-bottom: -2rem;
 }
-@media only screen and (min-width:350px)  and (max-width:600px){
 
+.link-btn.btn-proceed {
+    display: flex;
+    justify-content: center;
+    min-width: 15rem;
+}
+
+@media only screen and (min-width: 350px) and (max-width: 600px) {
     body {
         height: 100%;
         width: 100%;
-      }
-      .horizontal-card .card-image
-      {
-        min-width: 70vw;
-       
-      }
     }
+    .horizontal-card .card-image {
+        min-width: 70vw;
+    }
+}
