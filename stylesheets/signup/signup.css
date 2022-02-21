@@ -1,51 +1,51 @@
 /* @import url(/stylesheets/logIN/login.css); */
-.sign-up-page-container 
-{
+
+.sign-up-page-container {
     min-height: 80vh;
-    max-width:70%;    
-    padding: 1rem;    
+    max-width: 70%;
+    padding: 1rem;
     flex-direction: column;
-    box-shadow: 2px 2px 5px var(--dark-stone);   
+    box-shadow: 2px 2px 5px var(--dark-stone);
     margin: auto;
 }
-.text-size-xl
-{
+
+.text-size-xl {
     font-size: 4rem;
 }
-.required-field
-{
-    font-size: 1.8rem; 
+
+.required-field {
+    font-size: 1.8rem;
     margin-bottom: -2rem;
     margin-top: 0.8rem;
 }
-.required-field::after
-{
-    content:" *";
+
+.required-field::after {
+    content: " *";
     color: var(--red-color);
 }
-.name-container
-{
+
+.name-container {
     display: flex;
     flex-direction: column;
 }
-.input-textbox.input-sm
-{
-    width:30rem;
+
+.input-textbox.input-sm {
+    width: 30rem;
 }
-.eye-icon-signup
-{
-    right:1rem;
+
+.eye-icon-signup {
+    right: 1rem;
 }
-.center
-{
+
+.center {
     margin: auto;
 }
-.alert-danger
-{
+
+.alert-danger {
     background: transparent;
     border: none;
     font-size: 1.3rem;
-    gap:0.5rem;
+    gap: 0.5rem;
     display: none;
     color: brown;
 }
