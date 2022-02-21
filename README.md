@@ -25,7 +25,7 @@ MehakStore is a e-commerce website for buying Perfumes.
 * Forgot password
 
 ## Live Link
-[Mehek-store] https://mehek-store.netlify.app/
+[Mehek-store] (https://mehek-store.netlify.app/)
 
 ## Some ScreenShots
 
