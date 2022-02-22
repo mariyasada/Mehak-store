@@ -11,21 +11,21 @@ MehakStore is a e-commerce website for buying Perfumes.
 
 ## Functionalities
 
-* Home Page
-* Product Listing Page
-* Wishlist page 
-* cart page
+* [Home Page](https://mehek-store.netlify.app/index.html)
+* [Product Listing Page](https://mehek-store.netlify.app/htmlfiles/productlist)
+* [Wishlist page](https://mehek-store.netlify.app/htmlfiles/wishlist) 
+* [cart page](https://mehek-store.netlify.app/htmlfiles/cart)
 * Authentication
-  * User Login
-  * User signup
-  * Logout
+  * [User Login](https://mehek-store.netlify.app/htmlfiles/login)
+  * [User signup](https://mehek-store.netlify.app/htmlfiles/signup)
+  * [Logout](https://mehek-store.netlify.app/htmlfiles/user-profile)
 * Filters for sorting products
-* user-profile page
-* Address management
-* Forgot password
+* [user-profile page](https://mehek-store.netlify.app/htmlfiles/user-profile)
+* [Address management](https://mehek-store.netlify.app/htmlfiles/addaddress)
+* [Forgot password](https://mehek-store.netlify.app/htmlfiles/forgotpassword.html)
 * search
-* Single product page detail
-* Forget Password
+* [Single product page detail](https://mehek-store.netlify.app/htmlfiles/product-detail)
+
 
 
 ## Live Link
