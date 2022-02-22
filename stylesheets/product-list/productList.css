@@ -121,7 +121,7 @@
     }
     .rating-with-icon {
         max-width: 3.5rem;
-        padding: 0.1rem;
+        padding: 0.2rem;
         flex-shrink: 2;
     }
     .grid-3-column-layout {
